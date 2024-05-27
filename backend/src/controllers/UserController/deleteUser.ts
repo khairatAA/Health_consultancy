@@ -1,8 +1,8 @@
 import { JwtPayload } from "jsonwebtoken";
-import { Response, Request } from 'express';
+import { Response } from 'express';
 import User from "../../models/User";
 
-export const deleteUser = async (request: Request & { user: JwtPayload }, response: Response) => {
+export const deleteUser = async (request: JwtPayload, response: Response) => {
     try {
         const userId = request.user.id;
         
