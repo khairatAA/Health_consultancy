@@ -1,7 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/index",
+  "types": "dist/index",
   "scripts": {
     "prod": "cross-env NODE_ENV=production nodemon dist/index.js",
     "dev": "cross-env NODE_ENV=development nodemon dist/index.js",
