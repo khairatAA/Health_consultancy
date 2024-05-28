@@ -50,8 +50,8 @@ const PatientForm: React.FC<PatientFormProps> = ({ open, handleClose }) => {
         try {
             await api.post("/patient/create-patient", data);
             reset();
-            handleClose();
-            window.location.reload()
+            // handleClose();
+            // window.location.reload()
         } catch (error: any) {
             console.log('Create patient error: ', error);
             toast.error(error.response.data.message || 'Please try again. An error occurred');
