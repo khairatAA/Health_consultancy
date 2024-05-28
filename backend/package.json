@@ -17,7 +17,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/connect": "^3.4.38",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "concurrently": "^8.2.2",
@@ -51,6 +50,8 @@
     "@types/lodash.merge": "^4.6.9",
     "@types/morgan": "^1.9.9",
     "@types/node": "^20.12.12",
-    "@types/uuid": "^9.0.8"
+    "@types/uuid": "^9.0.8",
+    "@types/http-errors": "^1.8.1",
+    "@types/body-parser": "^1.19.2"
   }
 }
