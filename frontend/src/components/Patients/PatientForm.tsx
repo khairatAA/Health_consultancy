@@ -49,7 +49,7 @@ const PatientForm: React.FC<PatientFormProps> = ({ open, handleClose }) => {
     const onSubmit: SubmitHandler<PatientFormInputs> = async (data) => {
         try {
             await api.post("/patient/create-patient", data);
-            reset();
+            // reset();
             // handleClose();
             window.location.reload()
         } catch (error: any) {
