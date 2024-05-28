@@ -2,6 +2,10 @@
 
 Welcome to the Health Consultancy App! This application is designed to provide a platform for managing consultations and patient records in a healthcare facility.
 
+## Link to deployed project
+
+`https://health-consultancy.vercel.app/`
+
 ## Features
 
 - **User Authentication**: Secure authentication system for users including login, registration, and token-based authorization.
