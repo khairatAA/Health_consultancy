@@ -2,7 +2,8 @@
 
 import axios from "axios";
 
-const baseURL = `http://localhost:3000`
+// const baseURL = `http://localhost:3000`
+const baseURL = `https://health-consultancy.onrender.com`
 const api = axios.create({
     baseURL,
 });
