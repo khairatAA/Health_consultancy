@@ -4,11 +4,13 @@
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
-    "prod": "cross-env NODE_ENV=production nodemon dist/index.js",
-    "dev": "cross-env NODE_ENV=development nodemon dist/index.js",
-    "build": "tsc -w",
-    "compile": "tsc",
+    "prod": "cross-env NODE_ENV=production node dist/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
+    "build": "tsc",
     "start": "npm run prod"
+  },
+  "engines": {
+    "node": "20.10.0"
   },
   "keywords": [],
   "author": "",
